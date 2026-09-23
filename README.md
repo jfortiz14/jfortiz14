@@ -1,65 +1,111 @@
-# Hi, I'm Francisco Ortiz
+# Hi, I'm Francisco (Pako)
 
-> **Software Architect | Cloud & AI integrations @ eIVF.net**
+>**Software Architect @ eIVF | Healthcare & EMR Systems | Hybrid Cloud | Security | Integration | AI**
 
-I design enterprise software and AI architectures for healthcare, with a focus on secure integrations, cloud systems, identity, and applied AI.
+I'm a hands-on Software Architect at **eIVF.net**, where I work on architecture for healthcare and fertility EMR systems spanning hybrid on-premises/cloud platforms, distributed integrations, API and identity security, healthcare interoperability, and AI-enabled clinical workflows.
 
-Outside of my professional work, I build and experiment with open-source AI architecture projects and local LLM systems.
+My background is in software engineering, and I still prefer to stay close to implementation. My work typically involves understanding the problem, defining system boundaries and trade-offs, validating uncertain decisions through POCs, and helping engineering teams carry the architecture into production.
 
-I build secure, production-oriented architectures across AI, cloud, distributed systems, and enterprise healthcare.
+I currently work primarily with **C#/.NET, SQL Server, Microsoft Azure, APIs, distributed systems, healthcare interoperability, and applied AI**.
 
 ---
-## What I build
+## What I Build
 
-- AI-enabled enterprise architectures and agentic systems
-- Secure APIs, identity, workload identity, and authorization patterns
-- LLM integrations using Tool Calling, MCP, RAG, and local models
-- Cloud-native systems using .NET and Microsoft Azure
-- Healthcare integrations across HL7, FHIR, messaging, and clinical workflows
-- Architecture governance, ADRs, POCs, and technical evaluation frameworks
+### Healthcare & Enterprise Architecture
+- Healthcare and EMR platforms
+- Hybrid on-premises / cloud architectures
+- Multi-tenant and distributed systems
+- Legacy modernization and cloud integration
+- HL7 / FHIR-oriented interoperability
+
+### Integration, Security & Identity
+- Integration platforms and reusable API contracts
+- REST APIs and asynchronous messaging
+- Authentication and authorization architecture
+- API and service identity
+- Trust boundaries and secure system integration
+
+### Applied AI
+- AI-enabled healthcare workflows
+- Clinical documentation and transcription architectures
+- Azure OpenAI and Azure AI Services
+- Prompt and context architecture
+- Deterministic validation around probabilistic systems
+- Human-in-the-loop AI workflows
+
 ---
-## How I approach architecture
 
-I see architecture as a continuous decision-making process, not a collection of diagrams.
+## How I Approach Architecture
 
-#### My approach emphasizes:
+I prefer architecture that can be explained, tested, and defended.
 
-- Context before solutions
-- Explicit architectural decisions and trade-offs
-- Clear boundaries and ownership
-- Security and compliance by design
-- Reliability as an architectural concern
-- Evidence over assumptions
-- Small experiments to validate uncertain decisions
-- Independent review of important architectural choices
-- Architecture artifacts that evolve with the system
-- 
->  **Increase confidence before implementation.**
+My general approach is:
+
+- **Context before solutions** — understand the problem and constraints before selecting technology.
+- **Explicit decisions and trade-offs** — document why a design exists, not only what it contains.
+- **Security by design** — define identity, trust boundaries, authorization, and data exposure early.
+- **Reliability as an architectural concern** — design for failure rather than assuming perfect dependencies.
+- **Evidence over assumptions** — use measurements, experiments, and production evidence whenever possible.
+- **Small experiments for uncertain decisions** — use focused POCs to validate assumptions before committing to larger implementations.
+- **Keep deterministic systems in control** — AI can assist with reasoning and generation, but security, validation, authorization, and critical business rules should remain deterministic.
+>**Increase confidence before implementation.**
 ---
-## Flagship work
+
+## What I'm Exploring
+
+Outside of my professional work, I maintain a small architecture and AI lab where I experiment with technologies and ideas before forming opinions about them.
+
+Current areas of exploration include:
+
+- Local LLM inference
+- LLM reliability and evaluation
+- Tool Calling and MCP
+- Agentic and multi-agent systems
+- Structured outputs and deterministic validation
+- Model quantization and hardware constraints
+- Architecture evaluation using multiple independent reasoning agents
+
+The goal is not simply to make AI demos work.
+
+I'm interested in understanding **what it takes to make AI systems predictable, observable, secure, and useful inside real software architectures.**
+
+---
+
+## Selected Projects
 
 ### Project FORGE
 
-Local AI engineering lab focused on evaluating LLMs, inference architectures, memory systems, quantization, tool use, and practical AI workloads.
+My local AI engineering lab for experimenting with LLM inference, hardware constraints, quantization, tool integration, and architecture patterns.
+
+FORGE is where I test ideas locally before deciding whether they deserve a place in larger systems.
+
+**Topics:** Local LLMs · Quantization · Inference · Tool Calling · MCP · AI Engineering
+
+---
 
 ### ArchitectAI Review Board
 
-Multi-agent architecture review framework for evaluating security, reliability, compliance, domain design, and other architectural concerns.
+An experimental multi-agent architecture review system.
+
+Instead of asking a single model to evaluate a design, multiple independent agents examine an architecture from different perspectives and produce structured findings for comparison and review.
+
+The project explores how AI can support — rather than replace — human architectural decision-making.
+
+**Topics:** Multi-Agent Systems · Architecture Review · Structured Evaluation · LLM Reasoning
 
 ---
-## Current focus
 
-- AI Architecture: agentic systems, MCP, tool calling, A2A
-- Local AI: inference, quantization, evaluation, memory
-- Security: identity, workload identity, API authorization
-- Architecture: multi-agent reviews and architecture governance
-- Healthcare: secure AI adoption in clinical software
+## Architecture Over Hype
+
+I'm interested in new technology, but I'm more interested in knowing **where it belongs and where it doesn't**.
+
+A successful POC proves that something *can* work.
+
+Architecture determines whether it **should become a system**.
+
 ---
-## Currently experimenting with
 
-- Local LLM inference
-- Agent memory architectures
-- MCP servers and AI integration protocols
-- Multi-agent architecture review
-- LLM evaluation and benchmarking
+## Connect
 
+- **LinkedIn:** [J. Francisco Ortiz B.](https://www.linkedin.com/in/jfranciscoortiz/)
+---
